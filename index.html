@@ -3,393 +3,262 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nur Amira Sofea Binti Othman - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Portfolio of Nur Amira Sofea — Software Engineering Graduate specializing in enterprise web applications, Angular, Laravel, and full-stack development.">
+    <title>Nur Amira Sofea | Software Engineer</title>
+    <link rel="stylesheet" href="./styles.css?v=20260622">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">Nur Amira Sofea</div>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#home" class="nav-brand">
+                <span class="nav-logo">NAS</span>
+                <span class="nav-name">Amira Sofea</span>
+            </a>
             <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#activities">Activities</a></li>
-                <li><a href="#certificates">Certificates</a></li>
-                <li><a href="#awards">Awards</a></li>
-                <li><a href="#references">References</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="hamburger">
+            <a href="./NUR%20AMIRA%20SOFEA%20BT%20OTHMAN-CV.pdf" download class="nav-cta">Resume</a>
+            <button class="hamburger" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
+            </button>
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-name">Nur Amira Sofea Binti Othman</h1>
-                    <p class="hero-title">Software Engineering Student</p>
-                    <div class="hero-contact">
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Tumpat, Kelantan</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <span>019-9336892</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <a href="mailto:amrasfeaa@gmail.com">amrasfeaa@gmail.com</a>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fab fa-linkedin"></i>
-                            <a href="https://www.linkedin.com/in/amrsfea/" target="_blank">LinkedIn Profile</a>
-                        </div>
-                    </div>
-                    <div class="hero-buttons">
-                        <a href="NUR AMIRA SOFEA BINTI OTHMAN -CV.pdf" download class="btn-download">
-                            <i class="fas fa-download"></i>
-                            Download Resume
-                        </a>
-                    </div>
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="hero-eyebrow">Software Engineering Graduate</p>
+                <h1 class="hero-name">Nur Amira Sofea<br><span>Binti Othman</span></h1>
+                <p class="hero-tagline">Building enterprise web applications, automation solutions, and scalable full-stack systems.</p>
+                <div class="hero-actions">
+                    <a href="./NUR%20AMIRA%20SOFEA%20BT%20OTHMAN-CV.pdf" download class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                    <a href="https://www.linkedin.com/in/amrsfea/" target="_blank" rel="noopener" class="btn btn-outline">
+                        <i class="fab fa-linkedin-in"></i> LinkedIn
+                    </a>
                 </div>
-                <div class="hero-image-container">
-                    <img src="sofea.jpg" alt="Nur Amira Sofea Binti Othman" class="hero-image">
+                <div class="hero-meta">
+                    <span><i class="fas fa-map-marker-alt"></i> Selangor, Malaysia</span>
+                    <span><i class="fas fa-envelope"></i> <a href="mailto:amrasfeaa@gmail.com">amrasfeaa@gmail.com</a></span>
+                    <span><i class="fas fa-phone"></i> 019-9336892</span>
                 </div>
+            </div>
+            <div class="hero-image-wrap">
+                <div class="hero-image-ring"></div>
+                <img src="sofea.jpg" alt="Nur Amira Sofea Binti Othman" class="hero-image">
             </div>
         </div>
     </section>
 
-    <!-- Summary Section -->
     <section id="about" class="section">
         <div class="container">
-            <h2 class="section-title about-title">About Me</h2>
-            <div class="summary-content">
-                <p>I am a dedicated Software Engineering student pursuing a Bachelor of Computer Science (Software Engineering) with Honours at Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA).</p>
-                <p>With strong problem-solving, logical thinking, and coding skills, I am passionate about developing web and mobile applications and continuously learning new technologies. I have experience working on projects both individually and in teams, which has helped me develop excellent collaboration and communication skills.</p>
-            </div>
-            <div class="skill-cards-grid">
-                <div class="skill-card">
-                    <i class="fas fa-code"></i>
-                    <h3>Full-Stack Development</h3>
+            <header class="section-header">
+                <span class="section-label">About</span>
+                <h2 class="section-title">Professional Summary</h2>
+            </header>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Software Engineering graduate with practical experience developing and maintaining enterprise web applications and WordPress platforms during an industry internship.</p>
+                    <p>Skilled in Angular, TypeScript, PHP, Laravel, Flutter, Firebase, and Git, with experience implementing analytics dashboards, reusable components, API integrations, responsive interfaces, and content management solutions.</p>
                 </div>
-                <div class="skill-card">
-                    <i class="fas fa-mobile-alt"></i>
-                    <h3>Mobile App Development</h3>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-users"></i>
-                    <h3>Team Collaboration</h3>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-lightbulb"></i>
-                    <h3>Problem Solving</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education" class="section section-alt">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="education-grid">
-                <div class="education-card">
-                    <div class="education-header">
-                        <h3>University Malaysia Pahang Al-Sultan Abdullah</h3>
-                        <span class="education-date">Oct 2022 - Aug 2026</span>
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3>Enterprise Web Apps</h3>
+                        <p>Angular, WordPress & ERP modules</p>
                     </div>
-                    <p class="education-degree">Bachelor of Computer Science (Software Engineering) with Honours</p>
-                    <p class="education-gpa"><strong>Current CGPA:</strong> 3.74</p>
-                    <div class="education-coursework">
-                        <strong>Key Courses:</strong>
-                        <p>Software Engineering, Web Engineering, Software Testing, SQA, SAP</p>
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-layer-group"></i></div>
+                        <h3>Full-Stack Development</h3>
+                        <p>Laravel, REST APIs & MySQL</p>
                     </div>
-                </div>
-                <div class="education-card">
-                    <div class="education-header">
-                        <h3>Kelantan Matriculation College</h3>
-                        <span class="education-date">Aug 2020 - May 2022</span>
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-robot"></i></div>
+                        <h3>Automation & APIs</h3>
+                        <p>Google Apps Script & integrations</p>
                     </div>
-                    <p class="education-degree">Program Dua Tahun (Jurusan Sains)</p>
-                    <p class="education-gpa"><strong>CGPA:</strong> 4.00</p>
-                    <p class="education-gpa"><strong>MUET:</strong> Band 3.5</p>
-                    <div class="education-coursework">
-                        <strong>Key Courses:</strong>
-                        <p>Computer Science, Mathematics, Chemistry, Physics</p>
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-people-group"></i></div>
+                        <h3>Cross-functional Teams</h3>
+                        <p>Marketing, Sales & Development</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section">
+    <section id="experience" class="section section-alt">
         <div class="container">
-            <h2 class="section-title">Project Involvement</h2>
+            <header class="section-header">
+                <span class="section-label">Experience</span>
+                <h2 class="section-title">Work History</h2>
+            </header>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Software Engineer (Internship)</h3>
+                                <p class="timeline-org">WORQ (Incompleteness Theorem Sdn Bhd) · Petaling Jaya, Selangor</p>
+                            </div>
+                            <span class="timeline-date">Mar 2026 – Aug 2026</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Developed and enhanced enterprise web applications and ERP modules using Angular, TypeScript, NgRx, and WordPress, improving maintainability through reusable components and streamlined frontend workflows.</li>
+                            <li>Developed automation solutions using Google Apps Script and OfficeRnD APIs to automate booking notifications, event reminders, and operational reporting processes.</li>
+                            <li>Collaborated with Marketing, Sales, Operations, and Development teams to deliver software solutions aligned with business requirements.</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Angular</span><span>TypeScript</span><span>NgRx</span><span>WordPress</span><span>Google Apps Script</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <header class="section-header">
+                <span class="section-label">Education</span>
+                <h2 class="section-title">Academic Background</h2>
+            </header>
+            <div class="education-card">
+                <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="education-body">
+                    <div class="education-top">
+                        <div>
+                            <h3>University Malaysia Pahang Al-Sultan Abdullah</h3>
+                            <p class="education-degree">Bachelor of Computer Science (Software Engineering) with Honours</p>
+                        </div>
+                        <span class="timeline-date">Oct 2022 – Aug 2026</span>
+                    </div>
+                    <div class="education-stats">
+                        <div class="stat"><span class="stat-value">3.76</span><span class="stat-label">CGPA</span></div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-wide">
+                            <span class="stat-label">Key Courses</span>
+                            <p>Software Engineering, Web Engineering, Software Testing, SQA, SAP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <header class="section-header">
+                <span class="section-label">Projects</span>
+                <h2 class="section-title">Selected Work</h2>
+            </header>
             <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image-wrapper">
-                        <img src="meraki.jpeg" alt="AI-Powered Management System" class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://merakidinein.onrender.com" class="project-link" target="_blank" aria-label="View Project">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                                <a href="https://github.com/amrasfea/MerakiDineIn.git" class="project-link" target="_blank" aria-label="GitHub">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
+                <article class="project-card">
+                    <div class="project-image-wrap">
+                        <img src="meraki.jpeg" alt="Meraki Pizzeria Cafe management system" class="project-image">
+                        <div class="project-links">
+                            <a href="https://merakidinein.onrender.com" target="_blank" rel="noopener" aria-label="Live demo"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/amrasfea/MerakiDineIn.git" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
-                    <div class="project-header">
-                        <div class="project-title-wrapper">
-                            <h3>AI-Powered Management System with Intelligent Chatbot</h3>
-                            <span class="project-tag">Final Year Project</span>
+                    <div class="project-body">
+                        <div class="project-meta">
+                            <span class="project-badge">Final Year Project</span>
+                        </div>
+                        <h3>AI-Powered Management System</h3>
+                        <p class="project-client">Meraki Pizzeria Cafe</p>
+                        <p class="project-desc">Full-stack restaurant management system with OpenAI-powered chatbot for customer support and reservation management.</p>
+                        <ul class="project-points">
+                            <li>RESTful APIs, relational database design, and MVC architecture</li>
+                            <li>Scalable backend services with Laravel and MySQL</li>
+                            <li>Automated chatbot responses for inquiries and reservations</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Laravel</span><span>MySQL</span><span>OpenAI API</span><span>REST API</span>
                         </div>
                     </div>
-                    <p class="project-subtitle">Meraki Pizzeria Cafe</p>
-                    <ul class="project-details">
-                        <li>Full-stack development with Laravel, Tailwind CSS, and Alpine.js</li>
-                        <li>RESTful API with MVC architecture and MySQL database</li>
-                        <li>AI-powered chatbot integration using OpenAI API</li>
-                    </ul>
-                </div>
-                <div class="project-card">
-                    <div class="project-image-wrapper">
-                        <img src="learnify.jpeg" alt="Learnify e-learning platform" class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link" target="_blank" aria-label="View Project">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                                <a href="https://github.com/ChunkyBoyz77/learnify.git" class="project-link" target="_blank" aria-label="GitHub">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-header">
-                        <div class="project-title-wrapper">
-                            <h3>Learnify — Laravel e-learning platform</h3>
-                        </div>
-                    </div>
-                    <p class="project-subtitle">Full-featured e-learning backend with secure payment processing</p>
-                    <ul class="project-details">
-                        <li>Course & lesson management, quizzes, enrollments, and digital materials</li>
-                        <li>Integrated payment processing with Stripe, refund handling, and security audit logging</li>
-                        <li>Service-layer architecture with policy-based authorization and modular controllers</li>
-                        <li>Built with Laravel, MySQL, Stripe, Tailwind CSS, and tested with Pest/PHPUnit</li>
-                    </ul>
-                </div>
-                <div class="project-card">
-                    <div class="project-image-wrapper">
+                </article>
+                <article class="project-card">
+                    <div class="project-image-wrap">
                         <img src="tmg.jpeg" alt="Thesis Master Gate System" class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link" target="_blank" aria-label="View Project">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                                <a href="https://github.com/amrasfea/TMGSYSTEM.git" class="project-link" target="_blank" aria-label="GitHub">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
+                        <div class="project-links">
+                            <a href="https://github.com/amrasfea/TMGSYSTEM.git" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
-                    <div class="project-header">
-                        <div class="project-title-wrapper">
-                            <h3>Thesis Master Gate System</h3>
+                    <div class="project-body">
+                        <h3>Thesis Master Gate System</h3>
+                        <p class="project-desc">Web-based thesis management platform supporting academic workflows with role-based access control.</p>
+                        <ul class="project-points">
+                            <li>Role-based authentication for multiple user roles</li>
+                            <li>Centralized platform for users, thesis records, and processes</li>
+                            <li>Built in an Agile team environment</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Laravel</span><span>MySQL</span><span>Bootstrap</span><span>JavaScript</span>
                         </div>
                     </div>
-                    <ul class="project-details">
-                        <li>Thesis management system with role-based access control</li>
-                        <li>Developed registration and authentication modules</li>
-                        <li>Built with Laravel, MySQL, and Bootstrap</li>
-                    </ul>
-                </div>
-                <div class="project-card">
-                    <div class="project-image-wrapper">
-                        <img src="#" alt="Workshop Management System" class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link" target="_blank" aria-label="View Project">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                                <a href="https://github.com/nalianadh/WMS.git" class="project-link" target="_blank" aria-label="GitHub">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-header">
-                        <div class="project-title-wrapper">
-                            <h3>Workshop Management System</h3>
-                        </div>
-                    </div>
-                    <ul class="project-details">
-                        <li>Mobile app development using Flutter and Firebase</li>
-                        <li>Team collaboration on user management and profile modules</li>
-                        <li>Role-based access control implementation</li>
-                    </ul>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section section-alt">
+    <section id="skills" class="section">
         <div class="container">
-            <h2 class="section-title">Skills & Language</h2>
-            <div class="skills-container">
-                <div class="skills-category">
-                    <h3>Technical Skills</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <span class="skill-name">Flutter</span>
-                            <span class="skill-level">Intermediate</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Laravel</span>
-                            <span class="skill-level">Proficient</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">PHP</span>
-                            <span class="skill-level">Proficient</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">JavaScript</span>
-                            <span class="skill-level">Intermediate</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Firebase</span>
-                            <span class="skill-level">Proficient</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">HTML/CSS</span>
-                            <span class="skill-level">Proficient</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">MySQL</span>
-                            <span class="skill-level">Intermediate</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">RESTful API</span>
-                            <span class="skill-level">Intermediate</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">OpenAI API</span>
-                            <span class="skill-level">Experienced</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">SAP Fiori</span>
-                            <span class="skill-level">Experienced</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Figma</span>
-                            <span class="skill-level">Experienced</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Git & GitHub</span>
-                            <span class="skill-level">Intermediate</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Stripe</span>
-                            <span class="skill-level">Experienced</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Pest/PHPUnit</span>
-                            <span class="skill-level">Intermediate</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Tailwind CSS</span>
-                            <span class="skill-level">Proficient</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Vite</span>
-                            <span class="skill-level">Intermediate</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Eloquent ORM</span>
-                            <span class="skill-level">Proficient</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Python</span>
-                            <span class="skill-level">Intermediate</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Pandas & NumPy</span>
-                            <span class="skill-level">Intermediate</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">SQL</span>
-                            <span class="skill-level">Proficient</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">ETL/ELT</span>
-                            <span class="skill-level">Intermediate</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Apache Spark</span>
-                            <span class="skill-level">Intermediate</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Data Warehousing</span>
-                            <span class="skill-level">Intermediate</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Cloud Platforms</span>
-                            <span class="skill-level">Intermediate</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Data Modeling</span>
-                            <span class="skill-level">Intermediate</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">NoSQL Databases</span>
-                            <span class="skill-level">Intermediate</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Data Pipeline Tools</span>
-                            <span class="skill-level">Intermediate</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Data Visualization</span>
-                            <span class="skill-level">Proficient</span>
-                        </div>
+            <header class="section-header">
+                <span class="section-label">Skills</span>
+                <h2 class="section-title">Technical Expertise</h2>
+            </header>
+            <div class="skills-bento">
+                <div class="skill-group">
+                    <h3><i class="fas fa-code"></i> Programming</h3>
+                    <div class="tech-tags">
+                        <span>Java</span><span>PHP</span><span>TypeScript</span><span>JavaScript</span>
+                        <span>Dart</span><span>C</span><span>HTML</span><span>CSS</span>
                     </div>
                 </div>
-                <div class="skills-category">
-                    <h3>Soft Skills</h3>
-                    <div class="soft-skills">
-                        <span class="soft-skill-tag">Teamwork</span>
-                        <span class="soft-skill-tag">Time Management</span>
-                        <span class="soft-skill-tag">Adaptability</span>
-                        <span class="soft-skill-tag">Eager to Learn</span>
+                <div class="skill-group">
+                    <h3><i class="fas fa-cubes"></i> Technologies</h3>
+                    <div class="tech-tags">
+                        <span>Laravel</span><span>Flutter</span><span>Firebase</span><span>Angular</span>
+                        <span>Express.js</span><span>WordPress</span><span>Tailwind CSS</span><span>Google Apps Script</span>
                     </div>
                 </div>
-                <div class="skills-category">
-                    <h3>Languages</h3>
-                    <div class="languages">
-                        <div class="language-item">
-                            <span class="language-name">Malay</span>
-                            <span class="language-level">Native</span>
+                <div class="skill-group">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="tech-tags">
+                        <span>MySQL</span><span>Firebase Firestore</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3><i class="fas fa-toolbox"></i> Tools</h3>
+                    <div class="tech-tags">
+                        <span>Git & GitHub</span><span>VS Code</span><span>Android Studio</span>
+                        <span>LocalWP</span><span>Ubuntu (WSL)</span><span>Postman</span><span>Figma</span>
+                    </div>
+                </div>
+                <div class="skill-group skill-group-wide">
+                    <h3><i class="fas fa-comments"></i> Soft Skills & Languages</h3>
+                    <div class="skills-row">
+                        <div class="tech-tags">
+                            <span>Teamwork</span><span>Communication</span><span>Problem Solving</span>
+                            <span>Time Management</span><span>Adaptability</span>
                         </div>
-                        <div class="language-item">
-                            <span class="language-name">English</span>
-                            <span class="language-level">Proficient</span>
+                        <div class="language-badges">
+                            <div class="language-badge"><strong>Malay</strong> Native</div>
+                            <div class="language-badge"><strong>English</strong> Proficient</div>
                         </div>
                     </div>
                 </div>
@@ -397,35 +266,43 @@
         </div>
     </section>
 
-    <!-- Activities Section -->
-    <section id="activities" class="section">
+    <section id="activities" class="section section-alt">
         <div class="container">
-            <h2 class="section-title">Activities</h2>
+            <header class="section-header">
+                <span class="section-label">Activities</span>
+                <h2 class="section-title">Beyond the Code</h2>
+            </header>
             <div class="activities-grid">
-                <div class="activity-card">
-                    <h3>AJK TECH RUN UMP</h3>
+                <article class="activity-card">
                     <div class="activity-images">
                         <img src="techrun.jpeg" alt="Tech Run Event" class="activity-image">
                         <img src="techrun2.jpeg" alt="Tech Run Group Photo" class="activity-image">
                     </div>
-                    <p>Organized Tech Run & Pelancaran Tabung "We Care" event, demonstrating teamwork and event coordination skills.</p>
-                </div>
-                <div class="activity-card">
-                    <h3>Participated In Netball Competition</h3>
+                    <div class="activity-body">
+                        <h3>AJK TECH RUN UMP</h3>
+                        <p>Contributed to organizing the Tech Run & Pelancaran Tabung "We Care" event. Demonstrated strong teamwork and communication skills in coordinating tasks and supporting event operations.</p>
+                    </div>
+                </article>
+                <article class="activity-card">
                     <div class="activity-images">
                         <img src="netball.jpeg" alt="Netball Competition" class="activity-image">
                         <img src="netball2.jpeg" alt="Netball Team Photo" class="activity-image">
                     </div>
-                    <p>Participated as a player in faculty sports event, enhancing teamwork, communication, and adaptability skills through team collaboration.</p>
-                </div>
+                    <div class="activity-body">
+                        <h3>Netball Competition</h3>
+                        <p>Collaborated with teammates in competitive tournaments, strengthening communication, teamwork, and leadership skills. Demonstrated adaptability and discipline through consistent training and competition participation.</p>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
 
-    <!-- Certificates Section -->
-    <section id="certificates" class="section section-alt">
+    <section id="certificates" class="section">
         <div class="container">
-            <h2 class="section-title">Certificates & Training</h2>
+            <header class="section-header">
+                <span class="section-label">Certifications</span>
+                <h2 class="section-title">Training & Credentials</h2>
+            </header>
             <div class="certificates-grid">
                 <div class="certificate-card">
                     <img src="cisco.png" alt="CCNA Certificate" class="certificate-image">
@@ -433,68 +310,75 @@
                     <p>Cisco</p>
                 </div>
                 <div class="certificate-card">
-                    <i class="fas fa-certificate"></i>
+                    <div class="certificate-icon"><i class="fas fa-certificate"></i></div>
                     <h3>SAP Beginner Training</h3>
+                    <p>Enterprise Systems</p>
                 </div>
                 <div class="certificate-card">
                     <img src="powerbi-cert.png" alt="Power BI Certificate" class="certificate-image">
                     <h3>Power BI for Beginners</h3>
+                    <p>Data Visualization</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Awards Section -->
-    <section id="awards" class="section">
+    <section id="contact" class="section section-alt">
         <div class="container">
-            <h2 class="section-title">Awards</h2>
-            <div class="certificates-grid">
-                <div class="certificate-card">
-                    <i class="fas fa-trophy"></i>
-                    <h3>Dean's List Award</h3>
-                    <p>University Malaysia Pahang Al-Sultan Abdullah</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- References Section -->
-    <section id="references" class="section">
-        <div class="container">
-            <h2 class="section-title">References</h2>
-            <div class="references-grid">
-                <div class="reference-card">
-                    <h3>Dr. Mohd Izham Bin Mohd Jaya</h3>
-                    <p class="reference-role">Lecturer (Supervisor)</p>
-                    <p class="reference-institution">University Malaysia Pahang Al-Sultan Abdullah</p>
-                    <div class="reference-contact">
-                        <p><i class="fas fa-map-marker-alt"></i> 26600 Pekan Pahang</p>
-                        <p><i class="fas fa-phone"></i> 09-4315580</p>
-                        <p><i class="fas fa-envelope"></i> <a href="mailto:izhamjaya@umpsa.edu.my">izhamjaya@umpsa.edu.my</a></p>
+            <header class="section-header">
+                <span class="section-label">Contact</span>
+                <h2 class="section-title">References & Get in Touch</h2>
+            </header>
+            <div class="contact-grid">
+                <div class="references-grid">
+                    <div class="reference-card">
+                        <div class="reference-avatar"><i class="fas fa-user-tie"></i></div>
+                        <h3>Dr. Mohd Izham Bin Mohd Jaya</h3>
+                        <p class="reference-role">Lecturer (Supervisor)</p>
+                        <p class="reference-institution">University Malaysia Pahang Al-Sultan Abdullah</p>
+                        <div class="reference-contact">
+                            <a href="mailto:izhamjaya@umpsa.edu.my"><i class="fas fa-envelope"></i> izhamjaya@umpsa.edu.my</a>
+                            <span><i class="fas fa-phone"></i> 09-4315580</span>
+                        </div>
+                    </div>
+                    <div class="reference-card">
+                        <div class="reference-avatar"><i class="fas fa-user-tie"></i></div>
+                        <h3>Dr. Anis Farihan Bt Mat Raffei</h3>
+                        <p class="reference-role">Lecturer (Academic Advisor)</p>
+                        <p class="reference-institution">University Malaysia Pahang Al-Sultan Abdullah</p>
+                        <div class="reference-contact">
+                            <a href="mailto:anisfarihan@umpsa.edu.my"><i class="fas fa-envelope"></i> anisfarihan@umpsa.edu.my</a>
+                            <span><i class="fas fa-phone"></i> 09-4315587</span>
+                        </div>
                     </div>
                 </div>
-                <div class="reference-card">
-                    <h3>Dr. Anis Farihan Bt Mat Raffei</h3>
-                    <p class="reference-role">Lecturer (Academic Advisor)</p>
-                    <p class="reference-institution">University Malaysia Pahang Al-Sultan Abdullah</p>
-                    <div class="reference-contact">
-                        <p><i class="fas fa-map-marker-alt"></i> 26600 Pekan Pahang</p>
-                        <p><i class="fas fa-phone"></i> 09-4315587</p>
-                        <p><i class="fas fa-envelope"></i> <a href="mailto:anisfarihan@umpsa.edu.my">anisfarihan@umpsa.edu.my</a></p>
+                <aside class="contact-panel">
+                    <h3>Let's Connect</h3>
+                    <p>Interested in collaborating or have an opportunity? I'd love to hear from you.</p>
+                    <a href="mailto:amrasfeaa@gmail.com" class="btn btn-primary btn-block">
+                        <i class="fas fa-paper-plane"></i> Send Email
+                    </a>
+                    <div class="contact-social">
+                        <a href="https://www.linkedin.com/in/amrsfea/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/amrasfea" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://amrasfea.github.io/Portfolio_AmiraSofea/" target="_blank" rel="noopener" aria-label="Portfolio"><i class="fas fa-globe"></i></a>
                     </div>
-                </div>
+                </aside>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Nur Amira Sofea Binti Othman. All rights reserved.</p>
+        <div class="container footer-inner">
+            <p>&copy; 2026 Nur Amira Sofea Binti Othman. All rights reserved.</p>
+            <p class="footer-sub">Software Engineering Graduate · Selangor, Malaysia</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <button class="scroll-to-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="./script.js?v=20260622"></script>
 </body>
 </html>
-
